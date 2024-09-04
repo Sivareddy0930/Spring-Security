@@ -1,4 +1,4 @@
-package com.sivasolutions.springBootSecurity.controller;
+package com.sivasolutions.springBootSecurity.model;
 
 public class Student {
     private int id;
