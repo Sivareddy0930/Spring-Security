@@ -1,6 +1,7 @@
 package com.sivasolutions.springBootSecurity.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.*;
 
 @Entity
@@ -11,7 +12,8 @@ import lombok.*;
 @NoArgsConstructor
 public class Users {
 
-    private int id;
+    @Id
+    private Integer id;
     private String username;
     private String password;
 }
